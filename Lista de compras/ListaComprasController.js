@@ -1,6 +1,6 @@
 
 app.controller("myCtrl", function ($scope) {/*crea el controlador de la aplicacion*/
-    $scope.products = ["Leche", "Pan", "Queso"];
+    $scope.products = ["Leche", "Pan", "Queso","Chocolate"];
     $scope.addItem = function () {
         $scope.errortext = "";
         if (!$scope.addMe) { return; }
